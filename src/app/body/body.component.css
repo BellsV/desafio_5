@@ -1,6 +1,76 @@
-div{
-  background-image: url(/desafio_5/src/assets/image/background.png);
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+h1, h5, p{
+  color: #FFFFFF;
+  gap: 1rem;
+}
+
+h5 {
+  font-family: 'Open Sans';
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Andada Pro';
+  margin: 0;
+}
+
+p {
+  font-family: Archivo;
+}
+
+img {
+  margin-right: 5px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.WatchMovieNow, .WatchTrailer {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.WatchMovieNow {
+  background-color: #F1A5B1;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.WatchTrailer{
+  background-color: rgba(255, 255, 255, 0);
+  border: #F1A5B1 2px solid;
+  color:#FFFFFF
+}
+
+.WatchMovieNow:hover{
+  background-color: #f1a5b0a1;
+  border: none;
+}
+
+.WatchTrailer:hover{
+  background-color: #f1a5b0a1;
+  border: none;
+}
+
+.description-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.description-group,.image > img{
+  max-width: 22rem;
+  max-height: 25rem;
+}
+
+.content-body {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
 }
